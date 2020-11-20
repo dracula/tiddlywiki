@@ -98,15 +98,6 @@ tiddler-link-background: <<colour background>>
 tiddler-link-foreground: <<colour primary>>
 tiddler-subtitle-foreground: <<colour muted-foreground>>
 tiddler-title-foreground: <<colour primary>>
-toolbar-new-button:
-toolbar-options-button:
-toolbar-save-button:
-toolbar-info-button:
-toolbar-edit-button:
-toolbar-close-button:
-toolbar-delete-button:
-toolbar-cancel-button:
-toolbar-done-button:
 very-muted-foreground: rgba(255,255,255,0.2)
 ```
 
