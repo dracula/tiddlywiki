@@ -1,3 +1,12 @@
+author: SlyBouhafs, Zeno Rocha
+color-scheme: dark
+description: Dark palette for TiddlyWiki
+license: MIT, https://github.com/dracula/tiddlywiki/blob/master/LICENSE
+name: Dracula
+tags: $:/tags/Palette
+title: $:/palettes/Dracula
+type: application/x-tiddler-dictionary
+
 alert-background: #bd93f9
 alert-border: #bd93f9
 alert-highlight: <<colour primary>>
