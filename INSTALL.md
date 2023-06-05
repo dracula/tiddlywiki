@@ -1,6 +1,6 @@
 ### [TiddlyWiki](https://tiddlywiki.com/)
 
-### Drag and drop Install
+#### Drag and drop Install
 1. Download `sample/Dracula` file
 2. Drag and drop the file on tiddlywiki
 3. Click Import
