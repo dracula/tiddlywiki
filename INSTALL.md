@@ -1,5 +1,10 @@
 ### [TiddlyWiki](https://tiddlywiki.com/)
 
+### Drag and drop Install
+1. Download `sample/Dracula` file
+2. Drag and drop the file on tiddlywiki
+3. Click Import
+
 #### Install manually
 
 Open the Control Panel > Appereance > Palette, scroll down and clone a platte, rename it to Dracula and copy this code inside the editor:
