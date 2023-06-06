@@ -36,6 +36,8 @@ external-link-foreground-hover: inherit
 external-link-foreground-visited: <<colour tag-background>>
 external-link-foreground: <<color primary>>
 foreground: #f8f8f2
+highlight-background: #44475a
+highlight-foreground: #f1fa8c
 message-background: #bd93f9
 message-border: #bd93f9
 message-foreground: <<colour foreground>>
@@ -65,7 +67,7 @@ sidebar-tab-border-selected: #44475a
 sidebar-tab-border: #44475a
 sidebar-tab-divider: #44475a
 sidebar-tab-foreground-selected: <<colour primary>>
-sidebar-tab-foreground: #44475a
+sidebar-tab-foreground: <<colour muted-foreground>>
 sidebar-tiddler-link-foreground-hover: inherit
 sidebar-tiddler-link-foreground: <<colour muted-foreground>>
 site-title-foreground: <<colour foreground>>
