@@ -62,7 +62,7 @@ sidebar-muted-foreground: <<colour foreground>>
 sidebar-tab-background-selected: <<colour page-background>>
 sidebar-tab-background: transparent
 sidebar-tab-border-selected: #44475a
-sidebar-tab-border: <<colour foreground>>
+sidebar-tab-border: #44475a
 sidebar-tab-divider: #44475a
 sidebar-tab-foreground-selected: <<colour primary>>
 sidebar-tab-foreground: #44475a
