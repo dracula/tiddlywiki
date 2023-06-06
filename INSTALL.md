@@ -1,36 +1,29 @@
 ### [TiddlyWiki](https://tiddlywiki.com/)
 
-#### Drag and drop Install
-1. Download `sample/Dracula` file
-2. Drag and drop the file on tiddlywiki
-3. Click Import
+#### Install option 1: import palette
+1. Download `sample/Dracula.tid` file.
+2. Drag and drop the downloaded file into the TiddlyWiki, or use the Import button (under the Tools tab in the sidebar) and choose the file to import.
+3. Click Import.
 
-#### Install manually
+#### Install option 2: create palette yourself
 
-Open the Control Panel > Appereance > Palette, scroll down and clone a platte, rename it to Dracula and copy this code inside the editor:
+Open the Control Panel > Appereance > Palette, scroll down and clone a platte, rename it (change the name field) to Dracula and copy this code inside the editor:
 
 ```
-background: #282a36
-untagged-background: #6272a4
-foreground: #f8f8f2
-tiddler-border: #44475a
-page-background: #282a36
-primary: #8be9fd
-tag-background: #bd93f9
-muted-foreground: rgba(255,255,255,0.5)
-alert-background: <<colour tag-background>>
-alert-border: <<colour tag-background>>
+alert-background: #bd93f9
+alert-border: #bd93f9
 alert-highlight: <<colour primary>>
 alert-muted-foreground: <<colour muted-foreground>>
+background: #282a36
 blockquote-bar: <<colour muted-foreground>>
-button-background: <<colour tag-background>>
+button-background: <<colour page-background>>
 button-foreground: <<colour foreground>>
 button-border: <<colour tag-background>>
 code-background: <<colour page-background>>
 code-border: <<colour page-background>>
 code-foreground: <<colour muted-foreground>>
 dirty-indicator: <<colour primary>>
-download-background: <<colour tag-background>>
+download-background: #bd93f9
 download-foreground: <<colour background>>
 dragger-background: <<colour foreground>>
 dragger-foreground: <<colour background>>
@@ -45,8 +38,9 @@ external-link-background: inherit
 external-link-foreground-hover: inherit
 external-link-foreground-visited: <<colour tag-background>>
 external-link-foreground: <<color primary>>
-message-background: <<colour tag-background>>
-message-border: <<colour tag-background>>
+foreground: #f8f8f2
+message-background: #bd93f9
+message-border: #bd93f9
 message-foreground: <<colour foreground>>
 modal-backdrop: <<colour page-background>>
 modal-background: <<colour background>>
@@ -54,47 +48,52 @@ modal-border: <<colour background>>
 modal-footer-background: <<colour background>>
 modal-footer-border: <<colour background>>
 modal-header-border: <<colour muted-foreground>>
-notification-background: <<colour tag-background>>
-notification-border: <<colour tag-background>>
-pre-background: <<colour page-background>>
+muted-foreground: rgba(255,255,255,0.5)
+notification-background: #bd93f9
+notification-border: #bd93f9
+page-background: #282a36
+pre-background: #343746
 pre-border: <<colour page-background>>
+primary: #8be9fd
 sidebar-button-foreground: <<colour foreground>>
 sidebar-controls-foreground-hover: <<colour primary>>
 sidebar-controls-foreground: <<colour muted-foreground>>
 sidebar-foreground-shadow: transparent
 sidebar-foreground: <<colour foreground>>
 sidebar-muted-foreground-hover: <<colour primary>>
-sidebar-muted-foreground: <<colour muted-foreground>>
+sidebar-muted-foreground: <<colour foreground>>
 sidebar-tab-background-selected: <<colour page-background>>
 sidebar-tab-background: transparent
-sidebar-tab-border-selected: <<colour tiddler-border>>
-sidebar-tab-border: <<colour tiddler-border>>
-sidebar-tab-divider: <<colour tiddler-border>>
+sidebar-tab-border-selected: #44475a
+sidebar-tab-border: <<colour foreground>>
+sidebar-tab-divider: #44475a
 sidebar-tab-foreground-selected: <<colour primary>>
-sidebar-tab-foreground: <<colour foreground>>
-sidebar-tiddler-link-foreground-hover: <<colour primary>>
-sidebar-tiddler-link-foreground: <<colour primary>>
+sidebar-tab-foreground: #44475a
+sidebar-tiddler-link-foreground-hover: inherit
+sidebar-tiddler-link-foreground: <<colour muted-foreground>>
 site-title-foreground: <<colour foreground>>
 static-alert-foreground: <<colour foreground>>
 tab-background-selected: <<colour background>>
 tab-background: transparent
-tab-border-selected: <<colour tiddler-border>>
-tab-border: <<colour tiddler-border>>
-tab-divider: <<colour tiddler-border>>
+tab-border-selected: #44475a
+tab-border: #44475a
+tab-divider: #44475a
 tab-foreground-selected: <<colour primary>>
 tab-foreground: <<colour muted-foreground>>
 table-border: <<colour page-background>>
 table-footer-background: rgba(0, 0, 0, 0.1)
 table-header-background: rgba(0, 0, 0, 0.2)
+tag-background: #bd93f9
 tag-foreground: <<colour foreground>>
 tiddler-background: <<colour background>>
+tiddler-border: #44475a
 tiddler-controls-foreground-hover: inherit
 tiddler-controls-foreground-selected: <<colour foreground>>
 tiddler-controls-foreground: <<colour forground>>
 tiddler-editor-background: <<colour background>>
 tiddler-editor-border-image: <<colour background>>
 tiddler-editor-border: rgba(255,255,255,0.1)
-tiddler-editor-fields-even: <<colour tiddler-border>>
+tiddler-editor-fields-even: #44475a
 tiddler-editor-fields-odd: <<colour page-background>>
 tiddler-info-background: <<colour background>>
 tiddler-info-border: <<colour page-background>>
@@ -103,10 +102,20 @@ tiddler-link-background: <<colour background>>
 tiddler-link-foreground: <<colour primary>>
 tiddler-subtitle-foreground: <<colour muted-foreground>>
 tiddler-title-foreground: <<colour primary>>
+toolbar-new-button: 
+toolbar-options-button: 
+toolbar-save-button: 
+toolbar-info-button: 
+toolbar-edit-button: 
+toolbar-close-button: 
+toolbar-delete-button: 
+toolbar-cancel-button: 
+toolbar-done-button: 
+untagged-background: #44475a
 very-muted-foreground: rgba(255,255,255,0.2)
 ```
 
-#### Activating theme
+#### Activate palette
 
 1. Open the Control Panel > Appereance > Palette
 2. Scroll down and select Dracula
