@@ -71,6 +71,10 @@ sidebar-tab-foreground: <<colour muted-foreground>>
 sidebar-tiddler-link-foreground-hover: inherit
 sidebar-tiddler-link-foreground: <<colour muted-foreground>>
 site-title-foreground: <<colour foreground>>
+stability-deprecated: #ff5555
+stability-experimental: #ffb86c
+stability-legacy: #8be9fd
+stability-stable: #50fa7b
 static-alert-foreground: <<colour foreground>>
 tab-background-selected: <<colour background>>
 tab-background: transparent
